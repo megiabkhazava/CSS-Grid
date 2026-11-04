@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #ee60a7;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
